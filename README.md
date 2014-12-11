@@ -29,20 +29,8 @@ NB: from Growl you can even forward notifications to:
 | Supported dynaTrace Version | >= 5.5
 | License | [dynaTrace BSD](dynaTraceBSD.txt)
 | Support | [Not Supported ](https://community.compuwareapm.com/community/display/DL/Support+Levels#SupportLevels-Community)
-
-
-
-Download
-
-Plugin binary : [com.dynatrace.diagnostics.plugins.growl_1.0.1.jar](attachments_123896085_1_com.dynatrace.diagnostics.plugins.growl_1.0.1.jar)
-
-
-
-
-
-Version
-
-1.0.0
+| Download | Plugin binary : [com.dynatrace.diagnostics.plugins.growl_1.0.1.jar](com.dynatrace.diagnostics.plugins.growl_1.0.1.jar)
+| Release history | Version 1.0.0
 
 ## Installation
 
