@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Require-Bundle: com.dynatrace.diagnostics.sdk
+Bundle-Vendor: laurent.izac@compuware.com
+Bundle-ClassPath: .,lib/libgrowl-0.6-SNAPSHOT.jar
+Bundle-Version: 1.0.1
+Bundle-Name: Growl Task/Action Plugin
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.dynatrace.diagnostics.plugins.growl;singleton
+ :=true
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+

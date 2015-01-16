@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<!-- plugin.xml file written by dynaTrace Client 4.2.0 -->
+<plugin>
+  <extension point="com.dynatrace.diagnostics.pdk.pluginconfig" id="com.dynatrace.diagnostics.plugins.growl" name="Growl Action Plugin">
+    <information>
+      <category value="" />
+      <displayname value="Growl Action Plugin" />
+      <description value="Sends notifications to Growl upon incident.&#xD;&#xA;&#xD;&#xA;Growl is a notification system that is available for Mac, Windows and Linux.&#xD;&#xA;It provides &quot;Toast&quot; like notifications for the Desktop.&#xD;&#xA;NB: the plugin works also with Snarl...&#xD;&#xA;" />
+      <supportlevel value="unsupported" />
+    </information>
+    <configuration>
+      <property key="host" label="Growl host" type="string" description="name or IP address of the OS hosting your Growl notification tool" default="localhost" multiline="false" />
+      <property key="url" label="Callback URL" type="string" description="URL to use as callback in Growl when a notification is displayed to the user." default="http://localhost:8020/webstart/Client/client.jnlp" multiline="false" />
+    </configuration>
+  </extension>
+  <extension point="com.dynatrace.diagnostics.pdk.action" id="com.dynatrace.diagnostics.plugins.growl.action" name="Growl Plugin Action">
+    <plugin configid="com.dynatrace.diagnostics.plugins.growl" class="com.dynatrace.diagnostics.plugins.growl.GrowlAction" />
+  </extension>
+</plugin>
+
