@@ -22,4 +22,4 @@ NB: from Growl you can even forward notifications to:
 
   * [Growl on Android](https://play.google.com/store/apps/details?id=com.growlforandroid.client&hl=en)
 
-Find further information in the [dynaTrace community](https://community.compuwareapm.com/community/display/DL/Growl+Alerting+Plugin).
+Find further information in the [dynaTrace community](https://community.dynatrace.com/community/display/DL/Growl+Alerting+Plugin).
